@@ -21,3 +21,18 @@ h1 {
     margin-bottom: 5.rem;
 
 }
+
+h2{
+
+}
+
+.contant {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
