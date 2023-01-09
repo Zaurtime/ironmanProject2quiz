@@ -36,3 +36,12 @@ h2{
     margin: 0 auto;
     padding: 2rem;
 }
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+}
