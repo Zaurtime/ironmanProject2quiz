@@ -1,0 +1,22 @@
+body {
+color:white
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(20, 93, 255);
+    font-size: 1.5rem;
+    min-width: 80px;
+}
+
+.choice-containert:hover {
+    cursor: pointer;
+    box-shadow:0 0.5rem 1.5rem 0 rgba(6,105,250, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+
+
+}
