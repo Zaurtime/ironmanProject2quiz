@@ -20,3 +20,13 @@ color:white
 
 
 }
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color:white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
