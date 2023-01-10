@@ -38,3 +38,19 @@ color:white
 .incorrect {
     background: linear-gradient(32deg, rgb(252, 7, 19)0%, rgb(230, 3, 22)100%);
 }
+
+/*Heads up Display*/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
