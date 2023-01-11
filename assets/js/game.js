@@ -17,7 +17,7 @@ let questions = [
         choice2: 'Cork, Ireland',
         choice3: 'Lanzarote, Canary Islands',
         choice4: 'Norseman Xtreme, Norway',
-        answer: 1
+        answer: 1,
     },
     {
         question: 'How many km IronMan run daily?',
@@ -25,7 +25,7 @@ let questions = [
         choice2: '42km',
         choice3: '1km',
         choice4: 'Next Monday 5km',
-        answer: 2
+        answer: 2,
     },
     {
         question: 'How many km are you swimming ?',
@@ -33,7 +33,7 @@ let questions = [
         choice2: '200m',
         choice3: '2km',
         choice4: '3km and 800meters',
-        answer: 4
+        answer: 4,
     },
     {
         question: 'Your personal best in cycling?',
@@ -41,7 +41,7 @@ let questions = [
         choice2: '50km',
         choice3: '180km or more',
         choice4: '100km',
-        answer: 3
+        answer: 3,
     },
     {
         question: 'Who won IronMan Pro World Championship?',
@@ -49,7 +49,7 @@ let questions = [
         choice2: 'Sam Laidlow',
         choice3: 'Lionel Sanders',
         choice4: 'Jan Frodeno',
-        answer: 1
+        answer: 1,
     },
 ]
 
@@ -79,12 +79,12 @@ const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
 currentQuestion = availableQuestions[questionsIndex]
 question.innerText = currentQuestion.question
 
-choices.forEach(choice =>{
+choices.forEach(choice => {
     const number = choice.dataset['number']
     choice.innerText = currentQuestion['choice' + number]
-}
+})
 
-)
+
 
 availableQuestions.splice(questionsIndex, 1)
 
@@ -92,6 +92,7 @@ acceptingAnswer = true
 }
 
 choices.forEach(choice => {
+    choice.addEventListener('click', e => {
     if(!acceptingAnswers) return
 
     acceptingAnswers = false
@@ -100,6 +101,18 @@ choices.forEach(choice => {
 
     let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-    if(classToApply === 'correct')
+    if(classToApply === 'correct') {
     incrementScore(SCORE_POINTS)
+}
+
+
+selectedChoice.parentElement.classList.add(classToApply)
+
+setTimeout(() => {
+selectedChoice.parentElement.classList.remove(classToApply)
+getNewQuestion()
+},1000)
+
+})
+
 })
