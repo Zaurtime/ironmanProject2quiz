@@ -5,14 +5,14 @@ color:white
 .choice-container {
     display: flex;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 50%;
     border-radius: 4px;
     background: rgb(20, 93, 255);
     font-size: 1.5rem;
     min-width: 80px;
 }
 
-.choice-containert:hover {
+.choice-container:hover {
     cursor: pointer;
     box-shadow:0 0.5rem 1.5rem 0 rgba(6,105,250, 0.5);
     transform: scale(1.02);
@@ -22,12 +22,12 @@ color:white
 }
 
 .choice-prefix {
-    padding: 2rem 2.5rem;
+    padding: 1rem 2.5rem;
     color:white;
 }
 
 .choice-text {
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -55,7 +55,7 @@ color:white
     text-align: center;
 }
 
-#progressbar {
+#progressBar {
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid rgb(12, 223,37);
@@ -65,8 +65,11 @@ color:white
 
 }
 
+#progressBarFull {
+    height: 100%;
+}
+
 @media screen and(max-width: 768px;){
     .choice-container {min-width: 40rem;}
 }
     
-}

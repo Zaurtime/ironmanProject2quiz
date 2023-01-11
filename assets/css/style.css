@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 140%;
     font-family:'Nova Square';
 }
 
@@ -16,17 +15,18 @@ body{
 }
 
 h1 {
-    font-size: 5.rem;
+    font-size: 5rem;
     color: aliceblue;
-    margin-bottom: 5.rem;
+    margin-bottom: 5rem;
 
 }
 
-h2{
 
+h2 {
+    font-size: 1rem;
 }
 
-.contant {
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
