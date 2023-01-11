@@ -15,7 +15,43 @@ let questions = [
         question: 'What is the most difficult IronMan?'
         choice1: 'Patagonman, Chile'
         choice2: 'Cork, Ireland'
+        choice3: 'Lanzarote, Canary Islands'
+        choice4: 'Norseman Xtreme, Norway'
+        answer: 1
+    },
+    {
+        question: 'What is the most difficult IronMan?'
+        choice1: 'Patagonman, Chile'
+        choice2: 'Cork, Ireland'
         choice3: 'Challenge Wanaka, New Zealand'
         choice4: 'Norseman Xtreme, Norway'
-    }
+        answer: 1
+    },
+    {
+        question: 'What is the most difficult IronMan?'
+        choice1: 'Patagonman, Chile'
+        choice2: 'Cork, Ireland'
+        choice3: 'Challenge Wanaka, New Zealand'
+        choice4: 'Norseman Xtreme, Norway'
+        answer: 1
+    },
+    {
+        question: 'What is the most difficult IronMan?'
+        choice1: 'Patagonman, Chile'
+        choice2: 'Cork, Ireland'
+        choice3: 'Challenge Wanaka, New Zealand'
+        choice4: 'Norseman Xtreme, Norway'
+        answer: 1
+    },
+    {
+        question: 'What is the most difficult IronMan?'
+        choice1: 'Patagonman, Chile'
+        choice2: 'Cork, Ireland'
+        choice3: 'Challenge Wanaka, New Zealand'
+        choice4: 'Norseman Xtreme, Norway'
+        answer: 1
+    },
 ]
+
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 5
