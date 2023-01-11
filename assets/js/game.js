@@ -86,4 +86,20 @@ choices.forEach(choice =>{
 
 )
 
+availableQuestions.splice(questionsIndex, 1)
+
+acceptingAnswer = true
 }
+
+choices.forEach(choice => {
+    if(!acceptingAnswers) return
+
+    acceptingAnswers = false
+    const selectedChoice = e.target
+    const selectedAnswer = selectedChoice.dataset['number']
+
+    let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+
+    if(classToApply === 'correct')
+    incrementScore(SCORE_POINTS)
+})
