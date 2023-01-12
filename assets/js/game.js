@@ -5,7 +5,7 @@ const scoreText = document.querySelector('#score');
 const progressBarFull= document.querySelector('#progressBarFull');
 
 let currentQuestion = {}
-let acceptingAnswer = true
+let acceptingAnswers = true
 let score = 0 
 let questionCounter = 0
 let availableQuestions = []
@@ -67,7 +67,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('/finish.html')
     }
 
     questionCounter++ 
@@ -88,12 +88,12 @@ choices.forEach(choice => {
 
 availableQuestions.splice(questionsIndex, 1)
 
-acceptingAnswer = true
+acceptingAnswers = true
 }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-    if(!acceptingAnswer) return
+    if(!acceptingAnswers) return
 
     acceptingAnswers = false
     const selectedChoice = e.target
@@ -111,7 +111,7 @@ selectedChoice.parentElement.classList.add(classToApply)
 setTimeout(() => {
 selectedChoice.parentElement.classList.remove(classToApply)
 getNewQuestion()
-},1000)
+}, 1000)
 
 })
 
@@ -121,3 +121,5 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 }
+
+startGame()
