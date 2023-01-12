@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [ 
     {
-        question: 'What is the most difficult IronMan?',
+        question: 'What is the most difficult IronMan race?',
         choice1: 'Patagonman, Chile',
         choice2: 'Cork, Ireland',
         choice3: 'Lanzarote, Canary Islands',
@@ -93,7 +93,7 @@ acceptingAnswer = true
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-    if(!acceptingAnswers) return
+    if(!acceptingAnswer) return
 
     acceptingAnswers = false
     const selectedChoice = e.target
