@@ -217,8 +217,14 @@ input::placeholder {
     border: none;
 }
 
-    @media screen and(max-width: 768px){
-        .choice-container {min-width: 40rem;}
-    }
+@media screen and(max-width: 768px){
+    .choice-container {min-width: 40rem;}
+
+}
         
-    
+@media screen and(max-width: 380px){
+    * {
+        font-size: 70%;
+    }
+
+}
