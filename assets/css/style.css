@@ -14,6 +14,7 @@
 
 body{
     background-color: rgb(29, 26, 26);
+    color:#fff
 }
 
 h1 {
@@ -227,4 +228,16 @@ input::placeholder {
         font-size: 70%;
     }
 
+}
+
+/*Leadbord page content */
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
 }
