@@ -168,6 +168,8 @@ body {
     
     #progressBarFull {
         height: 100%;
+        background: rgb(12, 223,37);
+        width:0%;
     }
     
     #background-image { 
