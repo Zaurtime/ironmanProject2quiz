@@ -237,14 +237,22 @@ input::placeholder {
     }
     h1 {
         font-size: 2rem;
+        text-align: center;
     }
 }
         
-@media screen and(max-width: 400px){
-    #progressBar {
-        width: 7rem;
+@media screen and (max-width: 400px) {
+    #hud {
+        display: grid;
     }
 
+    .end-form-container {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
 }
 
 /*Leadbord page content */
