@@ -67,13 +67,12 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/finish.html')
+        return window.location.assign('finish.html')
     }
 
     questionCounter++ 
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
-
 
 const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
 currentQuestion = availableQuestions[questionsIndex]
@@ -83,8 +82,6 @@ choices.forEach(choice => {
     const number = choice.dataset['number']
     choice.innerText = currentQuestion['choice' + number]
 })
-
-
 
 availableQuestions.splice(questionsIndex, 1)
 
@@ -104,7 +101,6 @@ choices.forEach(choice => {
     if(classToApply === 'correct') {
     incrementScore(SCORE_POINTS)
 }
-
 
 selectedChoice.parentElement.classList.add(classToApply)
 
