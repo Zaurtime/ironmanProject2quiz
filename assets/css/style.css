@@ -224,14 +224,25 @@ input::placeholder {
     border: none;
 }
 
-@media screen and (max-width: 768px){
-    .choice-container {min-width: 40rem;}
-
+@media screen and (max-width: 850px){
+    * {
+        font-size: 1rem;
+    }
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        max-width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
 }
         
-@media screen and(max-width: 380px){
-    * {
-        text-align: center;
+@media screen and(max-width: 400px){
+    #progressBar {
+        width: 7rem;
     }
 
 }
