@@ -254,12 +254,15 @@ input::placeholder {
     
 }
 
-#back-img {background-image: url('../images/WorldIronMan.png');
+/*#back-img {background-image: url('../images/WorldIronMan.png');
     background-size:auto;
     background-position:center;
     background-repeat:no-repeat;
     height: 100vh;
-    
+   
+} */
+#world-iron {
+    width: 100%;
 }
 
 #highScores {
