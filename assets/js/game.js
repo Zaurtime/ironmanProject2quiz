@@ -20,7 +20,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'How many km IronMan run daily?',
+        question: 'How many km an IronMan run daily?',
         choice1: '10km',
         choice2: '42km',
         choice3: '1km',
@@ -28,7 +28,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'How many km are you swimming ?',
+        question: 'How many km can you swim?',
         choice1: '100m',
         choice2: '200m',
         choice3: '2km',
@@ -36,7 +36,7 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'Your personal best in cycling?',
+        question: 'Your personal best distance in cycling?',
         choice1: '20km or less',
         choice2: '50km',
         choice3: '180km or more',
