@@ -91,7 +91,7 @@ h2 {
 }
 
 #rec-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(250,250,0,0.5,)
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(250,250,0,0.5)
 ;
 
 }
@@ -123,9 +123,7 @@ body {
         cursor: pointer;
         box-shadow:0 0.5rem 1.5rem 0 rgba(6,105,250, 0.5);
         transform: scale(1.02);
-        transform: transform 100ms;
-    
-    
+        transform: 100ms;
     }
     
     .choice-prefix {
