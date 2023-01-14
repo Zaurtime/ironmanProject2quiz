@@ -1,108 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Iron Man
 
-Welcome Zaurtime,
+View live [here](https://zaurtime.github.io/ironmanProject2quiz/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![multi-deviceGeneretor](assets/docs/am-i-responsive.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+### Site wide
+* Navigation menu
+  * Contains links to the Home, Climbing Map, Images and Sign Up pages and will be responsive on all devices.
+  * This will allow users to easily navigate between the pages within the site on any size device. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![menu](https://user-images.githubusercontent.com/119350794/209068488-46cf75d3-5ba1-460a-9f8d-addf9a4e734a.png)
 
-`python3 -m http.server`
+* Footer 
+  * This will contain icons as links to our social media websites that will open in new tabs. Icons will be accessible to the visually impaired because specially made them larger than usual standart.
+  * Under all pages copyright signiture year/name.
+  
+  ![Footer](https://user-images.githubusercontent.com/119350794/209073084-187cf8cb-0b70-4978-a7bb-e84ead631ab5.png)
+  
+  ### Landing Page
+ * Landing page image
+    * This will show most significant path view pictures from real life trekking adventure to virtual world network.
+    * This will help to immediately show the user what the website is about and help to animate the page.
+    * As well its include call to action button "Are you ready,now?" wich is clickable and will allow the user to easily navigate to the registration form. 
 
-A blue button should appear to click: _Make Public_,
+![LandingPage](https://user-images.githubusercontent.com/119350794/209075294-1c5249cd-cfad-4d3f-ad3c-dbad104dba6d.png)
+![CallToAction](https://user-images.githubusercontent.com/119350794/209076359-ae8ef221-b62c-4a14-b6b1-fe1739b956f6.png)
 
-Another blue button should appear to click: _Open Browser_.
+ * Website information Climb Everest 
+   *  Information about 'Climb Everest' and the websites purpose including an images of three ways to hike to the Everest base camp and climb Top of the world
+    * This information lets the user know what the site is about
+    ![Offer trek](https://user-images.githubusercontent.com/119350794/209078242-08b092f0-b1fd-4885-88ba-300451571df5.png)
+    
+  * Information about office locations accros the world if clients decide to pay by cash and make sure company Climb Everest is real.
+![Office title](https://user-images.githubusercontent.com/119350794/209079638-05d99b51-0d37-47d2-beff-7ccc7e275146.png)
+ * First office based in the United Arab Emirates,Dubai city
+ ![DubaiMarina](https://user-images.githubusercontent.com/119350794/209080184-f71a79d9-82cc-4fc1-8adc-ae8a50ac15f7.png)
+ * Second office location in Ukraine,Kyiv city
+ ![Kyiv](https://user-images.githubusercontent.com/119350794/209167013-3533c4fc-0ce1-4b60-b207-f3456bb14091.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ * Third one main office in Ireland,Dublin city
+![Dublin](https://user-images.githubusercontent.com/119350794/209081036-a364bf32-47b8-46d6-a2bd-5c55c530a58b.png)
 
-A blue button should appear to click: _Make Public_,
+* Enroll call for visitors of our website to register their interest and take their contact details.Additionally added a motivational bacground with mount Everest peak.
+  * Contact Us is an active button takes you to the sign up page for future assistance.
 
-Another blue button should appear to click: _Open Browser_.
+![Enroll to climb Everest](https://user-images.githubusercontent.com/119350794/209082561-105b560b-9b77-433c-a96f-8c601748f707.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* About Us
+  * About Us shortly describes our company purpose and our core value about "Anything Possible".Specially short introduction to keep client interest to learn more about us on social media links wich are directly bellow and webpages inside site.
+  
+![About](https://user-images.githubusercontent.com/119350794/209115058-ef0d2511-90a5-409a-b3ec-a4cdb96125f0.png)
 
-To log into the Heroku toolbelt CLI:
+### Climbing Map
+* Climbing Map pages always changes because depending on the weather condition.Currently one way right.
+![climbMap](https://user-images.githubusercontent.com/119350794/209115440-32051a62-53a2-4f98-a898-fc3ea618c4e7.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Images
+* Gallery where customers can see what to expect on the trip.You can see for example bellow
+![example1](https://user-images.githubusercontent.com/119350794/209116713-3c8662b1-d907-41c8-8415-0d20608525ff.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![examp2](https://user-images.githubusercontent.com/119350794/209116876-bf0dda83-aa2c-497a-854f-4cfa5f1f2277.png)
 
-------
+### Sign Up
+* Sign Up pages brings you closer to your dream conquer Everest.Register card its first step to complete.We promisse to our clients reserve permit to the TOP. The form will consist of the following fields and attributes:
+![REGISTER](https://user-images.githubusercontent.com/119350794/209118108-8e9ab151-a2e0-4615-a7ca-d70859e35a0e.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Sign Up page have reverse card if you click "I've an account".This means we have clients already and for existing customers it will be pleasant we remeber them.The next form will consist of the following fields and attributes:
+![LOGIN](https://user-images.githubusercontent.com/119350794/209119074-c0475347-a6a1-4139-bf92-9c674e1e8c5a.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Submit button in Register card after all required filled will show customers that we recived and if urgently need Climb Everest they can call immediately,check please example bellow:
+![R1](https://user-images.githubusercontent.com/119350794/209120211-5b0f5b87-af83-459a-87ef-ed3d6797d9b6.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Submit button in Login card after all required filled will show customers that we greeting them back with name in our system and if they need urgently Climb Everest again and climbing different ways can call on hot line,check please example bellow:
+![Log](https://user-images.githubusercontent.com/119350794/209121364-c62c70d3-193f-4051-9cc0-e5392484bc2f.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing
+* Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Actual:
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Website behaved as expected with the 
+Website was also opened on the following devices and no responsive issues were seen:
+   * Iphone SE
+   * Iphone 11
+   * Samsung Galaxy A51
+   * Samsung Galaxy A71
+   * Laptop Lenovo ThinkPad T460
+   * MacBook PRO M1 14 (2021)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Accessibility
+ * Testing was focused to ensure the following criteria were met:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Lighthouse Testing
+  * Desktop test 
+![LightDesktop](https://user-images.githubusercontent.com/119350794/209126896-21ec06dd-7d56-4c12-8297-12f2f6194566.png)
+  * Mobile test 
+![LightMobile](https://user-images.githubusercontent.com/119350794/209126941-e1be3e39-d0d8-4fed-bee3-372afb885b58.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### W3C Validation Testing
+ * html no errors 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![NoErrors](https://user-images.githubusercontent.com/119350794/209127829-3cef5917-3ec7-4ba9-9e5a-b613f17c0a1f.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ * css no errors 
+ 
+![CSSnoErr](https://user-images.githubusercontent.com/119350794/209127910-b7ebc955-9043-4779-82de-dd48b86b8835.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Code Institute  https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm
 
-------
+* Youtube https://www.youtube.com/watch?v=KhGWbt1dAKQ&t=365s
 
-## FAQ about the uptime script
+* Mentor Mr.Gareth McGirr
 
-**Why have you added this script?**
+### Content 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+All content listed in the Media section of this document.Permission was granted from free stock images.
 
-**How will this affect me?**
+* The icons in the footer were taken from Font Awesome
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Media
+* Used their jpg map images in Climbing map page.
+https://excitingnepal.com/
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+ https://shutterstock.com/ * Used their images in Images page 
 
-**So….?**
+### Unfixed Bugs
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* No bugs all fixed.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
